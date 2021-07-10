@@ -1,0 +1,22 @@
+.calender-container {
+    height: 500px;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 2em repeat(5, 1fr);
+    grid-gap: 1em;
+    margin: 0 auto;
+}
+
+.calender {
+    background-color: cadetblue;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.special {
+    background-color: grey;
+}
